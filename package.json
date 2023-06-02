@@ -1,0 +1,19 @@
+{
+  "name": "webpack-css-extract-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "webpack-css-extract-demo",
+  "scripts": {
+    "build": "webpack -c ./config/webpack.config.js"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.2.4",
+    "mini-css-extract-plugin": "^2.7.5",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.79.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
